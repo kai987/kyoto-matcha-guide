@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import typesImg from 'src/assets/types.jpg';
 
 export default function Types() {
   const { t } = useTranslation();
@@ -9,7 +10,7 @@ export default function Types() {
         {t('types.grades', { returnObjects: true }).map((g, i) => <li key={i}>{g}</li>)}
       </ul>
       <p>{t('types.select')}</p>
-      <img src="src/assets/Types.jpg" alt="Types" />
+      <img src={typesImg} alt="Types" />
     </section>
   );
 }

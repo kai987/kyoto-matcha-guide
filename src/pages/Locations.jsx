@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import location1Img from 'src/assets/location1.webp';
 
 export default function Locations() {
   const { t } = useTranslation();
@@ -11,7 +12,7 @@ export default function Locations() {
         <li>{t('locations.spot2')}</li>
         <li>{t('locations.spot3')}</li>
       </ul>
-      <img src="src/assets/Location1.webp" alt="Locations" />
+      <img src={location1Img} alt="Locations" />
     </section>
   );
 }
