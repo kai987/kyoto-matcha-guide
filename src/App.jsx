@@ -24,7 +24,7 @@ function App() {
   return (
     <div className="app">
       <header>
-        <h1>{t('nav.home') === 'Home' ? 'Kyoto Matcha Guide' : t('nav.home')}</h1>
+        <a className="link" href="https://dora-honor.github.io/leadership-kcgi/#/README"><h1>{t("title")}</h1></a>
         <LanguageSwitcher />
         <NavTabs activeTab={activeTab} onTabClick={setActiveTab} />
       </header>

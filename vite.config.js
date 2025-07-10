@@ -12,4 +12,11 @@ export default defineConfig({
       src: path.resolve(__dirname, 'src'),
     },
   },
+  server: {
+    hmr: {
+      protocol: 'ws',
+      host: 'localhost',
+      port: 5173, // 默认端口是随机的，这里强制设置
+    }
+  }
 })

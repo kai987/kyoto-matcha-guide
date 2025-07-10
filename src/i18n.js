@@ -4,6 +4,7 @@ import { initReactI18next } from 'react-i18next';
 const resources = {
   en: {
     translation: {
+      title: 'Kyoto Matcha Guide',
       nav: { home: 'Home', history: 'History', types: 'Types & Quality', brewing: 'Brewing', locations: 'Locations', contact: 'Contact' },
       home: { title: 'Welcome', desc: 'Experience the rich taste woven by history and culture of Kyoto Matcha.' },
       history: { title: 'Origin of Matcha', text1: 'Matcha was introduced from China in the Kamakura period and became powdered in the Edo period. Uji in Kyoto became its center.', text2: 'Established by Sen no Rikyu, the tea ceremony embodies the spirit of wabi-sabi and is a symbol of Japanese culture.' },
@@ -15,6 +16,7 @@ const resources = {
   },
   zh: {
     translation: {
+      title: '京都抹茶指南',
       nav: { home: '首页', history: '历史', types: '种类与品质', brewing: '冲泡', locations: '推荐地点', contact: '联系我们' },
       home: { title: '欢迎', desc: '欢迎来到京都抹茶的世界。体验由历史和文化编织的丰富风味。' },
       history: { title: '抹茶的起源', text1: '抹茶于镰仓时代从中国传入，江户时代成为粉末状。京都宇治成为中心。', text2: '千利休确立了茶道，体现了侘寂精神，成为日本文化的象征。' },
@@ -26,6 +28,7 @@ const resources = {
   },
   ja: {
     translation: {
+      title: '京の茶彩（ちゃさい）ガイド',
       nav: { home: 'ホーム', history: '歴史', types: '種類と品質', brewing: '淹れ方', locations: 'おすすめスポット', contact: 'お問い合わせ' },
       home: { title: 'ようこそ', desc: '歴史と文化が織りなす豊かな味わいの京都抹茶を体験してください。' },
       history: { title: '抹茶の起源', text1: '抹茶は鎌倉時代に中国から伝わり、江戸時代に粉末状になりました。宇治が発展の中心です。', text2: '千利休が確立した茶道はわび・さびの精神を体現し、日本文化の象徴です。' },
