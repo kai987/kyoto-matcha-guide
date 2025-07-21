@@ -23,9 +23,6 @@ function App() {
 
   return (
     <div className="app">
-      <div style={{ textAlign: 'center', marginTop: '3rem' }}>
-        <h1>Hello Kyoto 🍵</h1>
-      </div>
       <header>
         <a className="link" href="https://dora-honor.github.io/leadership-kcgi/#/README" target="_blank"><h1>{t("title")}</h1></a>
         <LanguageSwitcher />
