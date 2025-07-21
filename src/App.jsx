@@ -24,7 +24,7 @@ function App() {
   return (
     <div className="app">
       <header>
-        <a className="link" href="https://dora-honor.github.io/leadership-kcgi/#/README"><h1>{t("title")}</h1></a>
+        <a className="link" href="https://dora-honor.github.io/leadership-kcgi/#/README" target="_blank"><h1>{t("title")}</h1></a>
         <LanguageSwitcher />
         <NavTabs activeTab={activeTab} onTabClick={setActiveTab} />
       </header>
