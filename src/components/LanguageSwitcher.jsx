@@ -4,6 +4,7 @@ export default function LanguageSwitcher() {
   const { i18n } = useTranslation();
   return (
     <select
+      id={"language-switcher"}
       value={i18n.language}
       onChange={e => i18n.changeLanguage(e.target.value)}
     >

@@ -6,6 +6,8 @@ import './index.css';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    {/* <BrowserRouter basename="/kyoto-matcha-guide"> */}
+      <App />
+    {/* </BrowserRouter> */}
   </StrictMode>,
 )

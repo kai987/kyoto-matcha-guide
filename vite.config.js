@@ -4,7 +4,7 @@ import { defineConfig } from 'vite';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/kyoto-matcha-guide/',
+  base: './',
   assetsInclude: ['**/*.svg', '**/*.webp'],
   plugins: [react()],
   resolve: {
